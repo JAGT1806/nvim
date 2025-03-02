@@ -35,6 +35,9 @@ return {
                 "build.gradle",
                 "build.gradle.kts",
               },
+              jdk = {
+                auto_install = false,
+              },
             })
           end,
         },
